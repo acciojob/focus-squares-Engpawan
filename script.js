@@ -7,7 +7,7 @@ let sqaure3 = document.getElementById("sqaure3")
 function mouseenter()
 {
 	sqaure2.style.backgroundColor = "#6F4E37"
-	sqaure2.style.backgroundColor = "#6F4E37"
+	sqaure3.style.backgroundColor = "#6F4E37"
 	
 }
 
