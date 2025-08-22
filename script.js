@@ -1,40 +1,40 @@
 //your JS code here. If required.
-let box1 = document.getElementById("square1")
-let box2 = document.getElementById("square2")
-let box3 = document.getElementById("square3")
+let square1 = document.getElementById("square1")
+let square2 = document.getElementById("square2")
+let square3 = document.getElementById("square3")
 
-box1.addEventListener("mouseenter",() => {
-	box2.style.backgroundColor = "#6F4E37"
-	box3.style.backgroundColor = "#6F4E37"
+square1.addEventListener("mouseenter",() => {
+	square2.style.backgroundColor = "#6F4E37"
+	square3.style.backgroundColor = "#6F4E37"
 })
 
 
-box2.addEventListener("mouseenter",() => {
-	box1.style.backgroundColor = "#6F4E37"
-	box3.style.backgroundColor = "#6F4E37"
+square2.addEventListener("mouseenter",() => {
+	square1.style.backgroundColor = "#6F4E37"
+	square3.style.backgroundColor = "#6F4E37"
 })
 
 
-box3.addEventListener("mouseenter",() => {
-	box1.style.backgroundColor = "#6F4E37"
-	box2.style.backgroundColor = "#6F4E37"
+square3.addEventListener("mouseenter",() => {
+	square1.style.backgroundColor = "#6F4E37"
+	square2.style.backgroundColor = "#6F4E37"
 })
 
 
-box1.addEventListener("mouseleave",() => {
-	box2.style.backgroundColor = "#E6E6FA"
-	box3.style.backgroundColor = "#E6E6FA"
+square1.addEventListener("mouseleave",() => {
+	square2.style.backgroundColor = "#E6E6FA"
+	square3.style.backgroundColor = "#E6E6FA"
 })
 
 
-box2.addEventListener("mouseleave",() => {
-	box1.style.backgroundColor = "#E6E6FA"
-	box3.style.backgroundColor = "#E6E6FA"
+square2.addEventListener("mouseleave",() => {
+	square1.style.backgroundColor = "#E6E6FA"
+	square3.style.backgroundColor = "#E6E6FA"
 })
 
-box3.addEventListener("mouseleave",() => {
-	box1.style.backgroundColor = "#E6E6FA"
-	box2.style.backgroundColor = "#E6E6FA"
+square3.addEventListener("mouseleave",() => {
+	square1.style.backgroundColor = "#E6E6FA"
+	square2.style.backgroundColor = "#E6E6FA"
 })
 
 
